@@ -1,0 +1,30 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2023-04-08 11:01 -03
+Nmap scan report for 192.168.1.10
+Host is up (0.00039s latency).
+Not shown: 977 closed ports
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+22/tcp    open  ssh
+25/tcp    open  smtp
+37/tcp    open  time
+49/tcp    open  tacacs
+79/tcp    open  finger
+80/tcp    open  http
+110/tcp   open  pop3
+139/tcp   open  netbios-ssn
+143/tcp   open  imap
+161/tcp   open  snmp
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+993/tcp   open  imaps
+995/tcp   open  pop3s
+3128/tcp  open  squid-http
+3306/tcp  open  mysql
+5001/tcp  open  commplex-link
+8080/tcp  open  http-proxy
+10000/tcp open  snet-sensor-mgmt
+
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
